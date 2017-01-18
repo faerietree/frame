@@ -47,17 +47,28 @@ Dependencies
 
 
 
-Modules
+Related modules
 ---
 see <a href="http://wiki.opensourceecology.de/0install">0install</a>
 
-* `mobile_frame__legs` (universal, high traction, high stability) horizontal version, id est more than two legs
-* `link_coupling` (universal) maybe tailored for the `mobile_frame`, id est `mobile_frame__link_coupling`
-* `mobile_frame__tracks` (high traction, pressure distribution) extension tailoring chain tracks to the mobile frame
-* `mobile_frame__wheels` (high speed) extension tailoring wheels to the mobile frame
+* `link_coupling` (universal) maybe tailored for the frame, id est `frame__link_coupling`
+* `frame_leg`
+* `frame_track`
+* `frame_wheel`
 
-Explanation: e.g. `mobile_frame__legs` is a module that combines legs, mobile frame resulting in a functional mobile base.
-can be reused by machines.
+where e.g.
+* `frame_track` | `frame__track` is a module that tailors a track to fit the frame.
+
+
+
+Reverse dependency examples
+---
+* `walker` | `legged_frame` (universal, high traction, high stability, climbing angle skill magnitude of 45°) horizontal version, id est more than two legs
+* `wheeler` | `wheeled_frame` (high speed mobile frame)
+* `roller` (high traction, high pressure distribution, medium speed)
+
+where e.g.
+* `legged_frame` is a module that combines [frame_]legs, mobile frame resulting in a mobile base.
 
 
 
