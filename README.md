@@ -5,8 +5,10 @@ Used by all <a href="http://github.com/worlddevelopment">worlddevelopment</a> mo
 
 
 
-Functions
+Functions | capabilities
 ---
+''TODO: Outsource into JSON file to allow reuse in the <a href="http://github.com/worlddevelopment/virtual_time_machine">Virtual Time Machine</a>.''
+
 Mechanics:
 * bear
 * hold
