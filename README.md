@@ -7,18 +7,12 @@ Used by all <a href="http://github.com/worlddevelopment">worlddevelopment</a> mo
 
 Functions | capabilities
 ---
-''TODO: Outsource into JSON file to allow reuse in the <a href="http://github.com/worlddevelopment/virtual_time_machine">Virtual Time Machine</a>.''
 
 Mechanics:
-* bear
-* hold
-* link
-* move
-* pull
-* pus
+<a href="capabilities.xml">capabilities.xml</a>
 
 Electricity:
-* illuminate (lights)
+* illuminate (a capability of the lights, any of its attachments are checked for this action and if the item can be used/operated)
 * alternative power source to OSE combustion hydraulic power cube
 
 
@@ -41,6 +35,7 @@ Electricity:
 
 Technologies
 ---
+''TODO: Outsource into JSON file to allow reuse in the <a href="http://github.com/worlddevelopment/virtual_time_machine">Virtual Time Machine</a>.''
 * Electricity (battery recharge interface, electrical cooperation)
 * Mechanics (frame, coupling, ...)
 
